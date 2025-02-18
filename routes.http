@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3333
+# @authToken = {{authenticate.response.body.access_token}}
+
+# @name create_subscription
+POST {{baseUrl}}/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Rafael",
+  "email": "rafael5@example.com",
+  "password": "123456"
+}
