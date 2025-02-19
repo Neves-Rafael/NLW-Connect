@@ -7,5 +7,10 @@ Content-Type: application/json
 
 {
   "name": "Rafael",
-  "email": "rafael5@example.com"
+  "email": "rafael@example.com"
 }
+
+###
+
+# @name referral_invite
+GET {{baseUrl}}/invites/r123
