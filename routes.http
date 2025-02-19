@@ -14,3 +14,9 @@ Content-Type: application/json
 
 # @name referral_invite
 GET {{baseUrl}}/invites/r123
+
+
+###
+
+# @name ranking_clicks
+GET {{baseUrl}}/subscribers/r123/ranking/clicks
