@@ -7,16 +7,24 @@ Content-Type: application/json
 
 {
   "name": "Rafael",
-  "email": "rafael@example.com"
+  "email": "rafae1ll2@example.com",
+  "referrer": "73ce9ba4-21a9-4466-9a6a-804d586990c9" 
 }
 
 ###
 
 # @name referral_invite
-GET {{baseUrl}}/invites/r123
+GET {{baseUrl}}/invites/73ce9ba4-21a9-4466-9a6a-804d586990c9
 
 
 ###
 
 # @name ranking_clicks
-GET {{baseUrl}}/subscribers/r123/ranking/clicks
+GET {{baseUrl}}/subscribers/73ce9ba4-21a9-4466-9a6a-804d586990c9/ranking/clicks
+
+###
+
+# @name ranking_count
+GET {{baseUrl}}/subscribers/73ce9ba4-21a9-4466-9a6a-804d586990c9/ranking/count
+
+###
