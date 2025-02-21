@@ -7,8 +7,8 @@ Content-Type: application/json
 
 {
   "name": "Rafael",
-  "email": "rafae1ll2@example.com",
-  "referrer": "73ce9ba4-21a9-4466-9a6a-804d586990c9" 
+  "email": "rafae1lla2@example.com",
+  "referrer": "dfc3508f-6044-4d1d-a62d-5be75fa6fa70" 
 }
 
 ###
@@ -26,5 +26,16 @@ GET {{baseUrl}}/subscribers/73ce9ba4-21a9-4466-9a6a-804d586990c9/ranking/clicks
 
 # @name ranking_count
 GET {{baseUrl}}/subscribers/73ce9ba4-21a9-4466-9a6a-804d586990c9/ranking/count
+
+###
+
+# @name ranking_position
+GET {{baseUrl}}/subscribers/73ce9ba4-21a9-4466-9a6a-804d586990c9/ranking/position
+
+###
+
+
+# @name ranking_position
+GET {{baseUrl}}/ranking
 
 ###
